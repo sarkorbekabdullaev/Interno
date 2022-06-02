@@ -68,6 +68,11 @@
         border: none;
         padding: 22px 67px 22px 34px;
         border-radius: 18px;
+        transition: 0.4s;
+    }
+    
+    .button:hover {
+        transform: scale(1.08, 1.08);
     }
     
     .header_bg .arrow {
@@ -240,6 +245,12 @@
         border: none;
         padding: 22px 67px 22px 34px;
         border-radius: 18px;
+        transition: 0.4s;
+    }
+    
+    .designs button:hover {
+        transform: scale(1.08, 1.08);
+        box-shadow: 0 0 2px 2px #CDA274;
     }
     
     .designs .arrow_designs {
@@ -512,4 +523,87 @@
     .recent_blogs .border_block button:hover {
         box-shadow: 0 0 2px 2px #CDA274;
         transform: scale(1.25, 1.25);
+    }
+    
+    .join_interno .container {
+        padding: 100px 0 95px 0;
+        background: #292F36;
+        border-radius: 70px;
+    }
+    
+    .join_interno .row {
+        text-align: center;
+    }
+    
+    .join_interno .join_text h2 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 50px;
+        letter-spacing: 0.22px;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+    
+    .join_interno .join_text p {
+        font-family: 'Jost', sans-serif;
+        font-size: 22px;
+        color: #ffffff;
+        letter-spacing: 0.22px;
+        margin-bottom: 30px;
+    }
+    
+    .join_interno button {
+        position: relative;
+        background: #CDA274;
+        font-size: 18px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400px;
+        color: #ffffff;
+        border: none;
+        padding: 22px 67px 22px 34px;
+        border-radius: 18px;
+        transition: 0.4s;
+    }
+    
+    .join_interno button:hover {
+        transform: scale(1.08, 1.08);
+        color: #292F36;
+        background: white;
+        box-shadow: 0 0 3px 3px #CDA274;
+    }
+    
+    .join_interno .arrow_join {
+        position: absolute;
+        display: inline-block;
+        top: 35px;
+        left: 185px;
+        height: 1px;
+        width: 24px;
+        border: 1px solid #292F36;
+        background: #292F36;
+    }
+    
+    .join_interno .arrow_join:after {
+        position: absolute;
+        content: '';
+        display: inline-block;
+        border: 1px solid #292F36;
+        background: #292F36;
+        width: 20px;
+        height: 1px;
+        transform: rotate(65deg);
+        top: -10px;
+        left: 10px;
+    }
+    
+    .join_interno .arrow_join:before {
+        position: absolute;
+        content: '';
+        display: inline-block;
+        border: 1px solid #292F36;
+        background: #CDA274;
+        width: 20px;
+        height: 1px;
+        transform: rotate(-65deg);
+        top: 7.5px;
+        left: 10px;
     }
