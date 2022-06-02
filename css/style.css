@@ -335,3 +335,7 @@
         letter-spacing: 0.22px;
         color: #4D5053;
     }
+    
+    .logos .container {
+        padding: 0 50px 0 50px;
+    }
