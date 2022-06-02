@@ -338,4 +338,104 @@
     
     .logos .container {
         padding: 0 50px 0 50px;
+        margin-bottom: 110px;
+    }
+    
+    .recent_projects .heading_text {
+        text-align: center;
+    }
+    
+    .recent_projects .heading_text h3 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 47px;
+        color: #292F36;
+        letter-spacing: 0.22px;
+        margin-bottom: 20px;
+    }
+    
+    .recent_projects .heading_text p {
+        font-family: 'Jost', sans-serif;
+        font-size: 22px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+        padding: 0 17px 0 17px;
+        margin-bottom: 71px;
+    }
+    
+    .projects {
+        max-width: 590px;
+    }
+    
+    .projects img {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    
+    .projects .row button {
+        width: 70px;
+        height: 70px;
+        background: #F4F0EC;
+        border-radius: 50%;
+        border: none;
+        color: #292F36;
+        transition: 0.4s;
+    }
+    
+    .projects .row button:hover {
+        transform: scale(1.15, 1.15);
+        box-shadow: 0 0 2px 2px #CDA274;
+    }
+    
+    .projects .row {
+        padding: 0 11px 0 0;
+    }
+    
+    .projects .project_text p {
+        font-family: 'Jost', sans-serif;
+        font-size: 22px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+        margin-bottom: 61px;
+    }
+    
+    .projects .project_text h5 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 24px;
+        letter-spacing: 0.22px;
+        color: #292F36;
+    }
+    
+    .statistics {
+        padding: 140px 50px;
+        background: #F4F0EC;
+        text-align: center;
+    }
+    
+    .statistics .stat_text h1 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 85px;
+        color: #CDA274;
+        letter-spacing: 1.7px;
+        line-height: 128px;
+        margin-bottom: 10px;
+    }
+    
+    .statistics .stat_text P {
+        font-family: 'Jost', sans-serif;
+        font-size: 22px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+    }
+    
+    .stat_text {
+        position: relative;
+    }
+    
+    .text_line {
+        position: absolute;
+        width: 1px;
+        height: 170px;
+        background: #CDA274;
+        top: 0px;
+        left: 285px;
     }
